@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners><listener class-name="com.jhuma.api.utilities.ExtentReportManager"></listener></listeners>
+    <test name="Test">
+        <classes>
+            <!--<class name="com.jhuma.api.test.UserTest"></class>-->
+            <class name="com.jhuma.api.test.UserTest2"></class>
+
+        </classes>
+    </test>
+
+
+</suite>
